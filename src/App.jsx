@@ -1,8 +1,11 @@
-import { useState } from 'react'
 import s from './App.module.css'
 
+import card from '/card.png'
+import facebook from '/facebook.png'
+import instagram from '/instagram.png'
+import github from '/github.png'
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -13,7 +16,7 @@ function App() {
     </nav>
 
     <main>
-      <section id='s1'>
+      <section id='s1' className={s.s1}>
         <h1>TÍTULO DA EMPRESA</h1>
       </section>
 
@@ -29,7 +32,7 @@ function App() {
 
       <section id='s3'>
         <div className={s.card}>
-          <img src="" alt="car" />
+          <img src={card} alt="car" />
           <div>
             <h3>Titulo card</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
@@ -37,7 +40,7 @@ function App() {
         </div>
 
         <div className={s.card}>
-          <img src="" alt="car" />
+          <img src={card} alt="car" />
           <div>
             <h3>Titulo card</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
@@ -45,7 +48,7 @@ function App() {
         </div>
 
         <div className={s.card}>
-          <img src="" alt="car" />
+          <img src={card} alt="car" />
           <div>
             <h3>Titulo card</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
@@ -55,9 +58,9 @@ function App() {
     </main>
 
     <footer>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
+      <a href=""><img src={facebook} width={40}></img></a>
+      <a href=""><img src={instagram} width={40}></img></a>
+      <a href=""><img src={github} width={40}></img></a>
     </footer>
     </>
   )

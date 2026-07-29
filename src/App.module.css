@@ -1,0 +1,11 @@
+.s1{
+    min-height: 100vh;
+    height: auto;
+    background-image: url('/a.png');
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    color: white;
+    margin-top: 80px;
+}
