@@ -1,6 +1,7 @@
 import s from './App.module.css'
 
 import card from '/card.png'
+import card2 from '/euquero.png'
 import facebook from '/facebook.png'
 import instagram from '/instagram.png'
 import github from '/github.png'
@@ -17,41 +18,41 @@ function App() {
 
     <main>
       <section id='s1' className={s.s1}>
-        <h1>TÍTULO DA EMPRESA</h1>
+        <h1>Opa</h1>
       </section>
 
-      <section id='s2'>
+      <section id='s2' className={s.s2}>
         <div className={s.left}>
-          <img src="" alt="" />
+          <img src={card2} alt="" />
         </div>
         <div className={s.right}>
-          <h2>SUBTITULO</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum saepe natus atque iste deserunt porro, nisi, a recusandae excepturi provident placeat aspernatur voluptatem itaque esse asperiores at laborum quam fuga.</p>
+          <h2>+55 41 8813-3455</h2>
+          <p>+55 41 8813-3455</p>
         </div>
       </section>
 
-      <section id='s3'>
+      <section id='s3' className={s.s3}>
         <div className={s.card}>
           <img src={card} alt="car" />
           <div>
-            <h3>Titulo card</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
+            <h2>+55 41 8813-3455</h2>
+            <p>+55 41 8813-3455</p>
           </div>
         </div>
 
         <div className={s.card}>
           <img src={card} alt="car" />
           <div>
-            <h3>Titulo card</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
+            <h2>+55 41 8813-3455</h2>
+            <p>+55 41 8813-3455</p>
           </div>
         </div>
 
         <div className={s.card}>
           <img src={card} alt="car" />
           <div>
-            <h3>Titulo card</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae cum expedita vel provident vero laborum doloribus fuga</p>
+            <h2>+55 41 8813-3455</h2>
+            <p>+55 41 8813-3455</p>
           </div>
         </div>
       </section>
